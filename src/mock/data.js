@@ -17,9 +17,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'Avatar-Maker.png',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'Hey! My name is Desiree, and I am a full-stack software engineer based in New York City. I am engaged by technology as a tool to allow for positive change.',
+  paragraphTwo:
+    'I am a recent graduate of the Grace Hopper Program at FullStack Academy, where we focused on the fundementals of the "NERD" Stack (Node, Express, React/Redux, and Sequelize Databases.) \n Before switching my path into Tech, I earned a Masters in History, and worked in Higher Education, and Transportation at the MTA.',
+  paragraphThree:
+    "When I'm not coding, I can be found experimenting with fermentation, reading, or spoiling my cats.",
   resume:
     'https://docs.google.com/document/d/e/2PACX-1vQGbqZ0z-obwi77TcVVRMGitCEmAzUgjWdlAy31UJzeLlDAfVwEZg3ymi-XxjHwFmqUWk1Ts-e9Dg1L/pub', // if no resume, the button will not show up
 };
