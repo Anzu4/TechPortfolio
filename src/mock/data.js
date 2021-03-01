@@ -18,11 +18,11 @@ export const heroData = {
 export const aboutData = {
   img: 'Avatar-Maker.png',
   paragraphOne:
-    'Hey! My name is Desiree, and I am a full-stack software engineer based in New York City. I am engaged by technology as a tool to allow for positive change.',
+    'Hey! My name is Desiree, and I am a full-stack software engineer based in New York City. I am engaged by technology as a tool to allow for positive change in the world. <Expand more>',
   paragraphTwo:
-    'I am a recent graduate of the Grace Hopper Program at FullStack Academy, where we focused on the fundementals of the "NERD" Stack (Node, Express, React/Redux, and Sequelize Databases.) \n Before switching my path into Tech, I earned a Masters in History, and worked in Higher Education, and Transportation at the MTA.',
+    'I am a recent graduate of the Grace Hopper Program at FullStack Academy, where we focused on the fundementals of the "NERD" Stack (Node, Express, React/Redux, and Sequelize Databases.) \n Before switching my path into Tech, I earned a Masters in History, and worked in Higher Education, and most recently transportation at the MTA.',
   paragraphThree:
-    "When I'm not coding, I can be found experimenting with fermentation, reading, or spoiling my cats.",
+    "When I'm not coding, I can be found experimenting with fermentation, gaming, reading, or spoiling my cats.",
   resume:
     'https://docs.google.com/document/d/e/2PACX-1vQGbqZ0z-obwi77TcVVRMGitCEmAzUgjWdlAy31UJzeLlDAfVwEZg3ymi-XxjHwFmqUWk1Ts-e9Dg1L/pub', // if no resume, the button will not show up
 };
@@ -48,15 +48,16 @@ export const projectsData = [
     url: 'http://comicsans-app.herokuapp.com/#/editor',
     repo: 'https://github.com/comic-sans-app/web-app/', // if no repo, the button will not show up
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
+];
+
+//SKILLS DATA
+export const skillsData = [
+  { id: nanoid(), title: 'JavaScript', img: 'javascript.png' },
+  { id: nanoid(), title: 'html5', img: 'html.png' },
+  { id: nanoid(), title: 'css', img: '' },
+  { id: nanoid(), title: '', img: '' },
+  { id: nanoid(), title: '', img: '' },
+  { id: nanoid(), title: '', img: '' },
 ];
 
 // CONTACT DATA
@@ -74,11 +75,11 @@ export const footerData = {
     //   name: 'twitter',
     //   url: '',
     // },
-    {
-      id: nanoid(),
-      name: 'envelope-o',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'envelope-o',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
@@ -89,11 +90,11 @@ export const footerData = {
       name: 'github',
       url: 'https://github.com/Anzu4',
     },
-    {
-      id: nanoid(),
-      name: 'user',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'user',
+    //   url: '',
+    // },
   ],
 };
 
