@@ -56,6 +56,7 @@ export const skillsData = [
   { id: nanoid(), stack: 'frontEnd', title: 'css3', img: 'css.png' },
   { id: nanoid(), stack: 'frontEnd', title: 'Fabric.js', img: 'fabric.png' },
   { id: nanoid(), stack: 'frontEnd', title: 'React', img: 'react.png' },
+  { id: nanoid(), stack: 'frontEnd', title: 'React', img: 'redux.png' },
   { id: nanoid(), stack: 'backEnd', title: 'Express', img: 'express.png' },
   { id: nanoid(), stack: 'backEnd', title: 'Node.js', img: 'node.png' },
   { id: nanoid(), stack: 'backEnd', title: 'PostgreSQL', img: 'postgresql.png' },
@@ -63,7 +64,6 @@ export const skillsData = [
   { id: nanoid(), stack: 'tools', title: 'git and github', img: 'git.png' },
   { id: nanoid(), stack: 'tools', title: 'mocha', img: 'mocha.png' },
   { id: nanoid(), stack: 'tools', title: 'chai', img: 'chai.png' },
-
 ];
 
 // CONTACT DATA
