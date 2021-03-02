@@ -52,12 +52,18 @@ export const projectsData = [
 
 //SKILLS DATA
 export const skillsData = [
-  { id: nanoid(), title: 'JavaScript', img: 'javascript.png' },
-  { id: nanoid(), title: 'html5', img: 'html.png' },
-  { id: nanoid(), title: 'css', img: '' },
-  { id: nanoid(), title: '', img: '' },
-  { id: nanoid(), title: '', img: '' },
-  { id: nanoid(), title: '', img: '' },
+  { id: nanoid(), stack: 'frontEnd', title: 'html5', img: 'html.png' },
+  { id: nanoid(), stack: 'frontEnd', title: 'css3', img: 'css.png' },
+  { id: nanoid(), stack: 'frontEnd', title: 'Fabric.js', img: 'fabric.png' },
+  { id: nanoid(), stack: 'frontEnd', title: 'React', img: 'react.png' },
+  { id: nanoid(), stack: 'backEnd', title: 'Express', img: 'express.png' },
+  { id: nanoid(), stack: 'backEnd', title: 'Node.js', img: 'node.png' },
+  { id: nanoid(), stack: 'backEnd', title: 'PostgreSQL', img: 'postgresql.png' },
+  { id: nanoid(), stack: 'tools', title: 'JavaScript', img: 'javascript.png' },
+  { id: nanoid(), stack: 'tools', title: 'git and github', img: 'git.png' },
+  { id: nanoid(), stack: 'tools', title: 'mocha', img: 'mocha.png' },
+  { id: nanoid(), stack: 'tools', title: 'chai', img: 'chai.png' },
+
 ];
 
 // CONTACT DATA
@@ -90,11 +96,12 @@ export const footerData = {
       name: 'github',
       url: 'https://github.com/Anzu4',
     },
-    // {
-    //   id: nanoid(),
-    //   name: 'user',
-    //   url: '',
-    // },
+    {
+      id: nanoid(),
+      name: 'user',
+      url:
+        'https://docs.google.com/document/d/e/2PACX-1vQGbqZ0z-obwi77TcVVRMGitCEmAzUgjWdlAy31UJzeLlDAfVwEZg3ymi-XxjHwFmqUWk1Ts-e9Dg1L/pub',
+    },
   ],
 };
 

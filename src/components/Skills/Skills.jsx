@@ -22,16 +22,21 @@ const Skills = () => {
     }
   }, []);
 
+  const frontEnd = skills.filter((skill) => skill.stack === 'frontEnd');
+  const backEnd = skills.filter((skill) => skill.stack === 'backEnd');
+  const tools = skills.filter((skill) => skill.stack === 'tools');
+
   return (
     <section id="skills">
       <Container>
         <div className="skills-wrapper">
           <Title title="Skills" />
-          {skills.map((skill) => {
-            const { id, title, img } = skill;
+          <h3>Front End</h3>
+          <Row className="row justify-content-center">
+            {frontEnd.map((skill) => {
+              const { id, stack, title, img } = skill;
 
-            return (
-              <Row key={id}>
+              return (
                 <Fade
                   left={isDesktop}
                   bottom={isMobile}
@@ -39,34 +44,68 @@ const Skills = () => {
                   delay={500}
                   distance="30px"
                 >
-                  <Tilt
-                    options={{
-                      reverse: false,
-                      max: 8,
-                      perspective: 1000,
-                      scale: 1,
-                      speed: 300,
-                      transition: true,
-                      axis: null,
-                      reset: true,
-                      easing: 'cubic-bezier(.03,.98,.52,.99)',
-                    }}
-                  >
+                  <div className="skills-wrapper_icons" key={skills.id}>
                     <div data-tilt className="thumbnail rounded">
-                      <Row>
-                        <Col>
-                          <SkillsImg alt={title} filename={img} />
-                        </Col>
-                        <Col>
-                          <p>{title}</p>
-                        </Col>
-                      </Row>
+                      <Col>
+                        <SkillsImg alt={title} filename={img} />
+                        <p>{title}</p>
+                      </Col>
                     </div>
-                  </Tilt>
+                  </div>
                 </Fade>
-              </Row>
-            );
-          })}
+              );
+            })}
+          </Row>
+          <h3>Back End</h3>
+          <Row className="row justify-content-center">
+            {backEnd.map((skill) => {
+              const { id, stack, title, img } = skill;
+
+              return (
+                <Fade
+                  left={isDesktop}
+                  bottom={isMobile}
+                  duration={1000}
+                  delay={500}
+                  distance="30px"
+                >
+                  <div className="skills-wrapper_icons" key={skills.id}>
+                    <div data-tilt className="thumbnail rounded">
+                      <Col>
+                        <SkillsImg alt={title} filename={img} />
+                        <p>{title}</p>
+                      </Col>
+                    </div>
+                  </div>
+                </Fade>
+              );
+            })}
+          </Row>
+          <h3>Tools and Languages</h3>
+          <Row className="row justify-content-center">
+            {tools.map((skill) => {
+              const { id, stack, title, img } = skill;
+
+              return (
+                <Fade
+                  left={isDesktop}
+                  bottom={isMobile}
+                  duration={1000}
+                  delay={500}
+                  distance="30px"
+                >
+                  <div className="skills-wrapper_icons" key={skills.id}>
+                    <div data-tilt className="thumbnail rounded">
+                      <Col>
+                        <SkillsImg alt={title} filename={img} />
+                        <p>{title}</p>
+                      </Col>
+                    </div>
+                  </div>
+                </Fade>
+              );
+            })}
+          </Row>
         </div>
       </Container>
     </section>
