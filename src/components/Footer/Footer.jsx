@@ -2,13 +2,10 @@ import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
-import GithubButtons from '../GithubButtons/GithubButtons';
-
-import { githubButtons } from '../../mock/data';
 
 const Footer = () => {
-  const { footer } = useContext(PortfolioContext);
-  const { networks } = footer;
+  const { footer, contact } = useContext(PortfolioContext);
+  const { networks, email } = footer;
 
   return (
     <footer className="footer navbar-static-bottom">
@@ -19,6 +16,13 @@ const Footer = () => {
           </Link>
         </span>
         <div className="social-links">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={`mailto:${'desiree.m.nelson4@gmail.com'}`}
+          >
+            <i className={`fa fa-envelope fa-inverse`} />
+          </a>
           {networks &&
             networks.map((network) => {
               const { id, name, url } = network;
@@ -35,15 +39,6 @@ const Footer = () => {
               );
             })}
         </div>
-        {/* <hr />
-        <p className="footer__text">
-          © {new Date().getFullYear()} - Template developed by{' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Jacobo Martínez
-          </a>
-        </p>
-
-        {isEnabled && <GithubButtons />} */}
       </Container>
     </footer>
   );

@@ -36,7 +36,7 @@ export const projectsData = [
     img: 'Globex.png',
     title: 'GlobeX',
     info:
-      'Model of the Earth with clouds, and the moon. Earth shifts from night to day, speed and direction of orbits and rotations can be modified.',
+      'Model of the Earth with clouds, and Moon. Earth fades from day to night.  Users can change the speed and direction of orbits and rotations.',
     info2: 'Made with Three.js and animated with Greensock',
     url: 'https://globex-dn.netlify.app/',
     repo: 'https://github.com/Anzu4/GlobeX', // if no repo, the button will not show up
@@ -89,7 +89,7 @@ export const footerData = {
     // {
     //   id: nanoid(),
     //   name: 'envelope-o',
-    //   url: '',
+    //   url: 'desiree.m.nelson4@gmail.com',
     // },
     {
       id: nanoid(),
