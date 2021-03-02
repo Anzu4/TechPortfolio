@@ -21,6 +21,20 @@
       margin-bottom: 0rem;
     }
 
+    &__image {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+
+      @include respond(tab-port) {
+        padding-bottom: 6.4rem;
+      }
+      @include respond(tab-land) {
+        height: 100%;
+      }
+    }
+
     .row {
       margin-bottom: 8rem;
 
@@ -28,9 +42,16 @@
         margin-bottom: 4rem;
       }
     }
+
+    .gatsby-resp-image-wrapper {
+      box-shadow: 1rem 1rem blue;
+    }
   }
 
   .h3 {
     color: green;
   }
+}
+img {
+  box-shadow: 1rem 1rem blue;
 }

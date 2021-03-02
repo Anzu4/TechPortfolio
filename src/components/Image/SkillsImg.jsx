@@ -30,7 +30,7 @@ const SkillsImg = ({ filename, alt }) => (
       }
 
       const imageFixed = image.node.childImageSharp.fixed;
-      return <Img alt={alt} fixed={imageFixed} />;
+      return <Img className="rounded shadow-lg" alt={alt} fixed={imageFixed} />;
     }}
   />
 );

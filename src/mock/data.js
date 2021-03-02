@@ -10,7 +10,7 @@ export const headData = {
 export const heroData = {
   title: 'Hello! My name is ',
   name: 'Desiree Nelson.',
-  subtitle: 'Full Stack Software Engineer',
+  subtitle: "and I'm a Full Stack Software Engineer",
   cta: 'Find out more',
 };
 
@@ -18,10 +18,12 @@ export const heroData = {
 export const aboutData = {
   img: 'Avatar-Maker.png',
   paragraphOne:
-    'Hey! My name is Desiree, and I am a full-stack software engineer based in New York City. I am engaged by technology as a tool to allow for positive change in the world. <Expand more>',
+    'Hey! My name is Desiree, and I am a full-stack software engineer based in New York City. I am engaged by technology as a tool to allow for positive change in the world.',
   paragraphTwo:
-    'I am a recent graduate of the Grace Hopper Program at FullStack Academy, where we focused on the fundementals of the "NERD" Stack (Node, Express, React/Redux, and Sequelize Databases.) \n Before switching my path into Tech, I earned a Masters in History, and worked in Higher Education, and most recently transportation at the MTA.',
+    'I am a recent graduate of the Grace Hopper Program at FullStack Academy, where we focused on the fundementals of the "NERD" Stack (Node, Express, React/Redux, and Sequelize Databases.)',
   paragraphThree:
+    'Before switching my path into Tech, I earned a Masters in History, worked in Higher Education, and most recently in transportation at the MTA.',
+  paragraphFour:
     "When I'm not coding, I can be found experimenting with fermentation, gaming, reading, or spoiling my cats.",
   resume:
     'https://docs.google.com/document/d/e/2PACX-1vQGbqZ0z-obwi77TcVVRMGitCEmAzUgjWdlAy31UJzeLlDAfVwEZg3ymi-XxjHwFmqUWk1Ts-e9Dg1L/pub', // if no resume, the button will not show up
@@ -33,9 +35,10 @@ export const projectsData = [
     id: nanoid(),
     img: 'Globex.png',
     title: 'GlobeX',
-    info: 'Model made with three js and animated with greensock',
-    info2: '',
-    url: 'https://blissful-jang-1365eb.netlify.app/',
+    info:
+      'Model of the Earth with clouds, and the moon. Earth shifts from night to day, speed and direction of orbits and rotations can be modified.',
+    info2: 'Made with Three.js and animated with Greensock',
+    url: 'https://globex-dn.netlify.app/',
     repo: 'https://github.com/Anzu4/GlobeX', // if no repo, the button will not show up
   },
   {
@@ -56,14 +59,16 @@ export const skillsData = [
   { id: nanoid(), stack: 'frontEnd', title: 'css3', img: 'css.png' },
   { id: nanoid(), stack: 'frontEnd', title: 'Fabric.js', img: 'fabric.png' },
   { id: nanoid(), stack: 'frontEnd', title: 'React', img: 'react.png' },
-  { id: nanoid(), stack: 'frontEnd', title: 'React', img: 'redux.png' },
+  { id: nanoid(), stack: 'frontEnd', title: 'Redux', img: 'redux.png' },
+  { id: nanoid(), stack: 'frontEnd', title: 'Three.js', img: 'threejs.png' },
   { id: nanoid(), stack: 'backEnd', title: 'Express', img: 'express.png' },
   { id: nanoid(), stack: 'backEnd', title: 'Node.js', img: 'node.png' },
   { id: nanoid(), stack: 'backEnd', title: 'PostgreSQL', img: 'postgresql.png' },
   { id: nanoid(), stack: 'tools', title: 'JavaScript', img: 'javascript.png' },
-  { id: nanoid(), stack: 'tools', title: 'git and github', img: 'git.png' },
-  { id: nanoid(), stack: 'tools', title: 'mocha', img: 'mocha.png' },
-  { id: nanoid(), stack: 'tools', title: 'chai', img: 'chai.png' },
+  { id: nanoid(), stack: 'tools', title: 'git and Github', img: 'git.png' },
+  { id: nanoid(), stack: 'tools', title: 'Webpack and Babel', img: 'webpack.png' },
+  { id: nanoid(), stack: 'tools', title: 'Mocha', img: 'mocha.png' },
+  { id: nanoid(), stack: 'tools', title: 'Chai', img: 'chai.png' },
 ];
 
 // CONTACT DATA

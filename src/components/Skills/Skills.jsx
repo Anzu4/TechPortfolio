@@ -47,7 +47,9 @@ const Skills = () => {
                   <div className="skills-wrapper_icons" key={skills.id}>
                     <div data-tilt className="thumbnail rounded">
                       <Col>
-                        <SkillsImg alt={title} filename={img} />
+                        <div className="skills-wrapper__image">
+                          <SkillsImg alt={title} filename={img} />
+                        </div>
                         <p>{title}</p>
                       </Col>
                     </div>
