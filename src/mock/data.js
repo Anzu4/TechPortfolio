@@ -47,7 +47,7 @@ export const projectsData = [
     title: 'Comic Sans',
     info:
       'Web app that allows users to create their own coimics by dragging elements, applying a template and adding text',
-    info2: 'Created using fabric.js',
+    info2: 'Created with fabric.js',
     url: 'http://comicsans-app.herokuapp.com/#/editor',
     repo: 'https://github.com/comic-sans-app/web-app/', // if no repo, the button will not show up
   },
@@ -64,6 +64,7 @@ export const skillsData = [
   { id: nanoid(), stack: 'backEnd', title: 'Express', img: 'express.png' },
   { id: nanoid(), stack: 'backEnd', title: 'Node.js', img: 'node.png' },
   { id: nanoid(), stack: 'backEnd', title: 'PostgreSQL', img: 'postgresql.png' },
+  { id: nanoid(), stack: 'backEnd', title: 'Sequelize', img: 'sequelize.png' },
   { id: nanoid(), stack: 'tools', title: 'JavaScript', img: 'javascript.png' },
   { id: nanoid(), stack: 'tools', title: 'git and Github', img: 'git.png' },
   { id: nanoid(), stack: 'tools', title: 'Webpack and Babel', img: 'webpack.png' },
