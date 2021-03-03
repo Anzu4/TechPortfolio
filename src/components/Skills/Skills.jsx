@@ -31,7 +31,7 @@ const Skills = () => {
       <Container>
         <div className="skills-wrapper">
           <Title title="Skills" />
-          <h3>Front End</h3>
+          <h3 className="skills-wrapper__text-title">Front End</h3>
           <Row className="row justify-content-center">
             {frontEnd.map((skill) => {
               const { id, stack, title, img } = skill;
@@ -58,7 +58,7 @@ const Skills = () => {
               );
             })}
           </Row>
-          <h3>Back End</h3>
+          <h3 className="skills-wrapper__text-title">Back End</h3>
           <Row className="row justify-content-center">
             {backEnd.map((skill) => {
               const { id, stack, title, img } = skill;
@@ -83,7 +83,7 @@ const Skills = () => {
               );
             })}
           </Row>
-          <h3>Tools and Languages</h3>
+          <h3 className="skills-wrapper__text-title">Tools and Languages</h3>
           <Row className="row justify-content-center">
             {tools.map((skill) => {
               const { id, stack, title, img } = skill;
