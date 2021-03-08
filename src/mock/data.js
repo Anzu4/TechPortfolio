@@ -16,11 +16,11 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'Avatar-Maker.png',
+  img: 'DN-yellow.png',
   paragraphOne:
     'Hey! My name is Desiree, and I am a full-stack software engineer based in New York City. I am engaged by technology as a tool to allow for positive change in the world.',
   paragraphTwo:
-    'I am a recent graduate of the Grace Hopper Program at FullStack Academy, where we focused on the fundementals of the "NERD" Stack (Node, Express, React/Redux, and Sequelize Databases.)',
+    'I am a recent graduate of the Grace Hopper Program at FullStack Academy, where we focused on the fundamentals of the "NERD" Stack (Node, Express, React/Redux, and Sequelize Databases.)',
   paragraphThree:
     'Before switching my path into Tech, I earned a Masters in History, worked in Higher Education, and most recently in transportation at the MTA.',
   paragraphFour:

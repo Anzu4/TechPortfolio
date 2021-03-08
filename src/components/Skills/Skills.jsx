@@ -44,16 +44,30 @@ const Skills = () => {
                   delay={500}
                   distance="30px"
                 >
-                  <div className="skills-wrapper_icons" key={skills.id}>
-                    <div data-tilt className="thumbnail rounded">
-                      <Col>
-                        <div className="skills-wrapper__image">
-                          <SkillsImg alt={title} filename={img} />
-                        </div>
-                        <p>{title}</p>
-                      </Col>
+                  <Tilt
+                    options={{
+                      reverse: false,
+                      max: 8,
+                      perspective: 1000,
+                      scale: 1,
+                      speed: 300,
+                      transition: true,
+                      axis: null,
+                      reset: true,
+                      easing: 'cubic-bezier(.03,.98,.52,.99)',
+                    }}
+                  >
+                    <div className="skills-wrapper_icons" key={skills.id}>
+                      <div className="thumbnail rounded">
+                        <Col>
+                          <div data-tilt className="skills-wrapper__image">
+                            <SkillsImg alt={title} filename={img} />
+                          </div>
+                          <p>{title}</p>
+                        </Col>
+                      </div>
                     </div>
-                  </div>
+                  </Tilt>
                 </Fade>
               );
             })}
