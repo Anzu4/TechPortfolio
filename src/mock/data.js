@@ -46,7 +46,7 @@ export const projectsData = [
     img: 'ComicSans.png',
     title: 'Comic Sans',
     info:
-      'Web app that allows users to create their own coimics by dragging elements, applying a template and adding text',
+      'Web app that allows users to create their own comics by dragging elements, applying a template and adding text',
     info2: 'Created with fabric.js',
     url: 'http://comicsans-app.herokuapp.com/#/editor',
     repo: 'https://github.com/comic-sans-app/web-app/', // if no repo, the button will not show up
