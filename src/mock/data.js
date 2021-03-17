@@ -8,9 +8,10 @@ export const headData = {
 };
 // HERO DATA
 export const heroData = {
-  title: 'Hello! My name is ',
-  name: 'Desiree Nelson.',
-  subtitle: "and I'm a Full Stack Software Engineer",
+  greeting: 'Hello! ',
+  title: 'My name is ',
+  name: 'Desiree Nelson,',
+  subtitle: "and I'm a Full Stack Software Developer",
   cta: 'Find out more',
 };
 
