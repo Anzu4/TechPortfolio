@@ -5,7 +5,7 @@
 You've found the repository for my portfolio! My name is Desiree Nelson, and I am a software engineer :space_invader:
 
 You can see it live by going to
-https://dazzling-varahamihira-02a93a.netlify.app/
+https://www.desireenelson.dev
 
 ## Acknowledgement
 
